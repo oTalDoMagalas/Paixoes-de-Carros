@@ -11,7 +11,6 @@ a, i {
 .secondary-color {
     color: #555;
 }
-
 .center-image{
     background-size: cover;
     background-position: center;
@@ -29,13 +28,19 @@ a, i {
     background-color: #333;
     color:#fff;
 }
-#hedear{
+#header{
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #ccc;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-
-#hedear p {
+header h1 {
+    height: auto;
+    margin-top: 20px;
+}
+#header p {
 margin-bottom: 0;
 }
 #logo-container{
@@ -93,7 +98,7 @@ margin-bottom: 0;
 }
 
 #img-6 {
-    background-image: url(assets/g_5.jpg);
+    background-image: url(assets/2024-lamborghini-revuelto-review.jpg);
 }
 
 #gallery-container h1 {
