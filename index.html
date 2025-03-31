@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Galeria Art</title>
+  </head>
+  <body>
+    <!-- 1ª Digitação (Aqui) -->
+    <div class="container-fluid">
+      <header id="header" class="row">
+        <div id="logo-container">
+          <img src="assets/logoWardiere.svg" alt="Art" id="logo" />
+          <h1>Paixões de Carros</h1>
+        </div>
+      </header>
+
+      <nav class="navbar navbar-expand-lg bg-white" id="navbar">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notícias</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+<!-- ====================================================== -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/g_1.webp"d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Arte do Akira Nakai</h5>
+            <p class="cor-white">Akira Nakai é um afinador automotivo japonês, fundador da empresa de afinação de reposição da Porsche RAUH-Welt BEGRIFF, especializado no design e instalação de kits de carroceria larga personalizados para modelos Porsche clássicos e modernos.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/smok.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Smokey" Nagata</h5>
+            <p class="cor-white">"Smokey" Nagata, seu dono e proprietário da customizadora Top Secret, foi flagrado pela polícia acelerando o Supra dourado a nada menos que 317 km/h em uma rodovia pública da Inglaterra.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p class="cor-white">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<!-- ========================================================================== -->
+
+    <div class="container" id="gallery-container">
+      <div class="col-12">
+        <h1>Novidades</h1>
+      </div>
+      <div class="row gx-md-5">
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-2"></div>
+          <h3>Wataru Katu</h3>
+          <p class="secondary-color">Wataru Kato é um empresário japonês que fundou a Liberty Walk,<br> uma empresa de tuning automotivo. A Liberty Walk é conhecida por <br>modificar carros de luxo e supercarros. </p>
+          <a href="https://www.tc.network/post/liberty-walk" class="btn"
+            >Ver Mais Detalhes</a
+          >
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-3"></div>
+          <h3>BMW M4 CS 2025 extrai 543 cv de seu motor de seis cilindros em linha biturbo</h3>
+          <p class="secondary-color">O M4 CS chega como uma versão um pouco menos radical do CSL focado em pistas, perdendo peso e ganhando 20 pôneis em relação ao M4 Competition padrão.</p>
+          <a href="https://www.caranddriver.com/news/a60701121/2025-bmw-m4-cs-revealed/" class="btn"> Ver Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-4"></div>
+          <h3>Bugatti Chiron roda em São Paulo e pode ser novo carro mais caro do Brasil</h3>
+          <p class="secondary-color">Uma das 500 unidades do Bugatti Chiron Sport está em solo brasileiro pela primeira vez. O superesportivo de 1.500 cv chega importado pela Paíto Imports e apareceu no último domingo (30) no bairro Cidade Jardim, na capital paulista. O modelo não teve o preço revelado.</p>
+          <a href="https://autoesporte.globo.com/carros/curiosidades-sobre-carros/noticia/2024/07/bugatti-chiron-esta-no-brasil-e-deve-se-tornar-o-carro-mais-caro-do-pais.ghtml" class="btn">Ver Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-5"></div>
+          <h3>Ferrari fica destruída após acidente em avenida de Campinas</h3>
+          <p class="secondary-color"></p>
+          <a href="https://g1.globo.com/sp/campinas-regiao/noticia/2025/02/14/ferrari-fica-destruida-apos-acidente-em-avenida-de-campinas-fotos.ghtml" class="btn">Ver Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-6"></div>
+          <h3>Grafite no centro da cidade</h3>
+          <p class="secondary-color"></p>
+          <a href="" class="btn">Detalhes</a>
+        </div>
+      </div>
+
+      <footer>
+        <p class="secondary-color">Nos encontre nas redes sociais:</p>
+        <div class="row justify-content-center" id="social-icons-container">
+          <div class="col-1">
+            <a href=""><i class="bi bi-facebook"></i></a>
+          </div>
+          <div class="col-1">
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+          <div class="col-1">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <p class="secondary-color">Paixões de Carros &copy; 2025</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+
+<div class="container" id="main-image-container">
+  <div class="main-image center-image">
+    <div class="main-image-info">
+      <h2>Arte do Akira Nakai</h2>
+      <p class="secondary-color">Akira Nakai é um preparador <br>japonês e fundador da RAUH-Welt BEGRIFF, <br>especializada em kits de carroceria <br>larga para Porsche.</p>
+      <a href="https://rwb.jp/" class="btn">Ver mais Detalhes</a>
+    </div>
+  </div>
+</div>
